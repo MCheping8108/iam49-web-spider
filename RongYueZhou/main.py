@@ -1,3 +1,5 @@
+import os
+
 import requests
 import time
 
@@ -23,4 +25,5 @@ text = response.text
 with open("GET.txt", "w", encoding="utf-8")as f:
     f.write(text)
 # print(response)
+os.system("pause")
 
